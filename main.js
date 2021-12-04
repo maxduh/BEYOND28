@@ -1,1 +1,2 @@
-window.scrollTo(0,0)
+$(".sssubtitleB").removeClass('bb')
+setInterval(()=>$(".sssubtitleB").addClass('bb'),2250);
