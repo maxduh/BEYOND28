@@ -156,7 +156,19 @@ html{scroll-behavior:smooth}
     background-color: #282828;
   }
 }
+
 img{
   height:75%;
   padding-top: 20px;
+  opacity: 0;
+  animation: 1s ease-out 2s 1 img forwards;
+}
+@keyframes img{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+
 }
