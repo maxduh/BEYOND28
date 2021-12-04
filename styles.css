@@ -76,7 +76,7 @@ body{
 }
 @keyframes slideInFromTop3 {
   0% {
-    transform: translateY(-300px);
+    transform: translateY(-100px);
     color: #ddd0;
   }
   100% {
@@ -85,7 +85,7 @@ body{
   }
 }
 .else{
-  transform: translateY(-300px);
+  transform: translateY(-100px);
   margin: auto 15%;
   margin-top: 36px;
   font-size: 24px;
