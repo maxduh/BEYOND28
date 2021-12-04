@@ -86,7 +86,7 @@ body{
 }
 .else{
   transform: translateY(-100px);
-  margin: auto 15%;
+  margin: auto 5%;
   margin-top: 36px;
   font-size: 24px;
   color:#ddd0 ;
@@ -127,8 +127,8 @@ html{scroll-behavior:smooth}
   text-align: center;
   border-radius: 25px;
   margin: 0px;
-  width: 500px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
   margin: 25px;
   background-color: #282828;
   color: #ddd0;
