@@ -3,20 +3,20 @@
     margin-left: auto;
     margin-top: 50px;
     font-size: 100px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Qore;
     text-align: center;
     color: #22b;
     font-weight: 600;
-    animation: 1s ease-out 0s 1 slideInFromTop;
+    animation: 0.75s ease-out 0s 1 slideInFromTop;
 
 }
 .num2{
     color: #ddd;
-    animation: 1s ease-out 0s 1 num2Color;
+    animation: 0.75s ease-out 0s 1 num2Color;
 }
 sup{
     color: skyblue;
-    animation: 1s ease-out 0s 1 num8Color;
+    animation: 0.75s ease-out 0s 1 num8Color;
 }
 .subtitle{
     color: #ddd;
@@ -25,7 +25,7 @@ sup{
     margin-top: 25px;
     font-size: 50px;
     text-align: center;
-    animation: 1s ease-out 1s 1 slideInFromTop2 forwards;
+    animation: 0.75s ease-out 0.75s 1 slideInFromTop2 forwards;
     color: #ddd0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transform: translateY(-200%);
@@ -90,7 +90,7 @@ body{
   margin-top: 36px;
   font-size: 24px;
   color:#ddd0 ;
-  animation: 1s ease-out 2s 1 slideInFromTop3 forwards;
+  animation: 0.75s ease-out 1.5s 1 slideInFromTop3 forwards;
 }
 a{
   color: unset;
@@ -105,7 +105,7 @@ html{scroll-behavior:smooth}
 .spans{
   color: #22b0;
   font-weight: 600;
-  animation: 1s ease-out 2s 1 color1 forwards;
+  animation: 0.75s ease-out 1.5s 1 color1 forwards;
 }
 @keyframes color1 {
   0% {
@@ -133,7 +133,7 @@ html{scroll-behavior:smooth}
   background-color: #282828;
   color: #ddd0;
   background-color: #28282800;
-  animation: 1s ease-out 2s 1 DP3 forwards;
+  animation: 0.75s ease-out 1.5s 1 DP3 forwards;
   display: table-column;
   justify-content:space-evenly;
   padding: 15px;
@@ -161,7 +161,7 @@ img{
   height:75%;
   padding-top: 20px;
   opacity: 0;
-  animation: 1s ease-out 2s 1 img forwards;
+  animation: 0.75s ease-out 1.5s 1 img forwards;
 }
 @keyframes img{
   0% {
@@ -172,3 +172,4 @@ img{
   }
 
 }
+@font-face { font-family: Qore; src: url('assets/font.otf'); }
