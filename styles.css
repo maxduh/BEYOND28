@@ -145,6 +145,12 @@ html{scroll-behavior:smooth}
   flex-wrap:wrap;
   justify-content:space-evenly;
 }
+.subcat2{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+}
 
 @keyframes DP3 {
   0% {
@@ -179,7 +185,7 @@ img{
   text-align: center;
   border-radius: 20px;
   margin: 0px;
-  width: 450px;
+  width: 35ch;
   height: 75x;
   margin: 25px;
   background-color: #282828;
@@ -189,6 +195,7 @@ img{
   display: table-column;
   justify-content:space-evenly;
   padding: 15px;
+  flex-grow: 1;
 
 }
 .sub1{
